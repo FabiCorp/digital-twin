@@ -1,0 +1,170 @@
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.2fr 0.1fr 1fr 0.1fr 1fr 0.1fr;
+  background-color: #e0e0e0;
+  height: 100%;
+  width: 100%;
+  --shadowSettings: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)
+}
+
+.Top-Bar {
+  display: flex;
+  background-color: white;
+  grid-row: 1;
+  grid-column: 1 / 7;
+  border-bottom: 1px solid;
+  box-shadow: var(--shadowSettings);
+}
+
+.Title {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 28px;
+  grid-row: 1;
+  grid-column: 2 / 3;
+}
+
+.Server-Buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-row: 1;
+  grid-column: 4 / 5;
+}
+
+.Start-Twin-Server {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+
+}
+
+.Start-Entity-Server {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+
+.ProcessStep {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+
+.Production-Numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  grid-row: 3;
+  grid-column: 2 / 3;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  box-shadow: var(--shadowSettings);
+}
+
+.Total-Time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+
+  grid-row: 3;
+  grid-column: 4 / 5;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  box-shadow: var(--shadowSettings);
+}
+
+.Roboter-Condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: white;
+  grid-row: 5;
+  grid-column: 2 / 3;
+  border: 1px solid;
+  box-shadow: var(--shadowSettings);
+}
+
+.Chart-Text {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.Average-Change {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  grid-row: 5;
+  grid-column: 4 / 5;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  box-shadow: var(--shadowSettings);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  grid-row: 1 / 7;
+  grid-column: 1 / 6;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

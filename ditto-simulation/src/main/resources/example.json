@@ -1,0 +1,29 @@
+{
+  "definition": "digitaltwin:DigitaltwinExample:1.0.0",
+  "attributes": {
+    "manufacturer": "ACME",
+    "VIN": "0815666337"
+  },
+  "features": {
+    "transmission": {
+      "properties": {
+        "automatic": true,
+        "mode": "eco",
+        "cur_speed": 90,
+        "gear": 5
+      }
+    },
+    "environment-scanner": {
+      "properties": {
+        "temperature": 20.8,
+        "humidity": 73,
+        "barometricPressure": 970.7,
+        "location": {
+          "longitude": 47.682170,
+          "latitude": 9.386372
+        },
+        "altitude": 399
+      }
+    }
+  }
+}

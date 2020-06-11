@@ -1,0 +1,21 @@
+.twin-information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 700px;
+    height: 300px;
+}
+
+.twin-information-top {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+
+.twin-information-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
